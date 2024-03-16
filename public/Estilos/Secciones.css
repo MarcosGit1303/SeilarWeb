@@ -1,0 +1,67 @@
+article {
+    /* Especiales */
+    overflow-y: scroll;
+    /* Posicion Parrafos */
+    flex-direction: column;
+    height: 100vh;
+    width: 45vw;
+    /*Fondo*/
+    background-image: url('../imagenes/Fondos/D&D.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+section {
+    flex-direction: column;
+    padding: 5vw;
+    height: 70vh;
+}
+
+footer {
+    /* Especiales */
+    overflow-y: scroll;
+    height: 100vh;
+    width: 55vw;
+}
+
+nav {
+    height: 20vh;
+    width: 55vw;
+}
+
+div {
+    border: 0.4vw solid rgb(191, 93, 2);
+    border-radius: 1.8vw;
+    margin-top: 2vw;
+    /*Fondo*/
+    background-image: url('../imagenes/Fondos/D&D.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Mapa {
+    height: 65vh;
+    width: 45vw;
+}
+
+
+/*article {*/
+/*    background-color: red;*/
+/*}*/
+
+/*section {*/
+/*    background-color: rebeccapurple;*/
+/*}*/
+
+/*footer {*/
+/*    background-color: wheat;*/
+/*}*/
+
+/*nav {*/
+/*    background-color: aqua;*/
+/*}*/
+
+/*div {*/
+/*    background-color: sandybrown;*/
+/*}*/
