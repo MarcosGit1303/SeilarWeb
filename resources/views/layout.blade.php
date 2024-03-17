@@ -15,6 +15,9 @@
 
         <link rel="stylesheet" href="{{asset("css/style.css")}}">
         <link rel="stylesheet" href="{{asset("css/buttom.css")}}">
+        <link rel="stylesheet" href="{{asset("css/urls.css")}}">
+        <link rel="stylesheet" href="{{asset("css/form.css")}}">
+        <link rel="stylesheet" href="{{asset("css/nav.css")}}">
     </head>
     <body>
         @include('partials.nav')

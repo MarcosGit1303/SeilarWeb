@@ -1,0 +1,42 @@
+/* Estilos del enlace que parece un botón */
+a {
+    text-decoration: none;
+    padding: 1vw 3vw;
+    font-family: Times New Roman, serif;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, rgb(196, 0, 0), rgb(198, 171, 16));
+    transition: 0.2s;
+}
+
+
+a::before,
+a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 60%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%);
+    background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0));
+    transition: 0.2s;
+}
+
+
+a:hover::before {
+    width: 80%;
+    height: 80%;
+    transition: 0.2s;
+}
+
+a:hover::after {
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(200deg in hsl shorter hue, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
