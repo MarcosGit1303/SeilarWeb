@@ -4,7 +4,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: linear-gradient(to bottom, #000000, #ffd84b);
+    background: linear-gradient(to bottom, #000000, #F53B00);
     list-style-type: none;
     margin: 0;
     padding: 1vw;
