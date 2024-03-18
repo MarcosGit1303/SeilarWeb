@@ -1,12 +1,16 @@
-
 /* Estilos del nav */
 nav {
+    /* Distribucion */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: linear-gradient(to bottom, #000000, #F53B00);
-    list-style-type: none;
+    /* tamaño */
+    width: 100vw;
+    height: 7vh;
     margin: 0;
     padding: 1vw;
+    /* Diseño */
+    background: linear-gradient(to bottom, #000000, #F53B00);
+    list-style-type: none;
     overflow: hidden;
 }
