@@ -3,8 +3,7 @@
     margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #ff4400;
-    background: linear-gradient(to bottom, #ffd84b, #000000);
+    background: linear-gradient(to bottom, #F51000, #000000);
 }
 h2 {
     text-align: center;
@@ -27,11 +26,11 @@ input[type="submit"] {
     padding: 20px;
     border: none;
     border-radius: 5px;
-    background-color: #ffd84b;
+    background-color: #F0A105;
     color: #000000;
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    background: linear-gradient(to bottom, #ffa7a7, #ffd84b);
+    background: linear-gradient(to bottom, #F46500, #F0A105);
     transition: 1s;
 }

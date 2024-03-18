@@ -3,5 +3,13 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom, #ff0000, #000000);
+    /*Fondo*/
+    background-image: url('../imagenes/Fondos/Mapa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.columna{
+    display: flex;
+    flex-direction: row;
 }
